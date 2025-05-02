@@ -1,0 +1,22 @@
+.NavigationList {
+    display: flex; /* розміщення посилань в ряд */
+    gap: 20px; /* відступи між посиланнями */
+    background-color: #f5f5f5; /* світлий фон */
+    padding: 15px 30px; /* відступи всередині навігації */
+    border-radius: 10px; /* скруглення кутів */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* легка тінь */
+  }
+  
+  .NavigationList a {
+    text-decoration: none; /* прибрати підкреслення */
+    color: #333; /* темний текст */
+    font-weight: 600; /* напівжирний шрифт */
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease; /* анімація при наведенні */
+  }
+  
+  .NavigationList a:hover {
+    color: #007bff; /* колір при наведенні */
+    transform: scale(1.05); /* легке збільшення при наведенні */
+  }
+  
